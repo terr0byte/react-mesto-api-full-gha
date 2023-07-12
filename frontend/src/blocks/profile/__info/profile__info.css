@@ -1,0 +1,14 @@
+.profile__info {
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    margin: auto 0 auto 0;
+}
+
+@media screen and (max-width: 895px) {
+    .profile__info {
+        display: flex;
+        margin: 8px auto 36px auto; /*По pixel-perfect: margin-top = 8px тк 18px из 26px занимает edit-button*/
+        flex-direction: column;
+    }
+}

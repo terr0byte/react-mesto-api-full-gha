@@ -1,0 +1,29 @@
+.profile__edit-button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: auto 0 auto 0;
+    background-image: url(../../../images/edit-button.svg);
+    grid-column: 2/3;
+}
+
+.profile__edit-button:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 895px) {
+    .profile__edit-button {
+        position: relative;
+        margin: 0 0 0 10px;
+        top: 25px; /*Использован подход pixel-perfect*/
+        left: 100%;
+        width: 18px;
+        height: 18px;
+        background-image: url(../../../images/edit-button-mobile.svg);
+    }
+}

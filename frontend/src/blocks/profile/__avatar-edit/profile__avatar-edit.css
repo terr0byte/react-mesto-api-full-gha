@@ -1,0 +1,17 @@
+.profile__avatar-edit {
+    position: fixed;
+    border: none;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+}
+
+.profile__avatar-edit:hover {
+    background: url('../../../images/edit.svg') center no-repeat rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 895px) {
+    .profile__avatar-edit {
+        margin-left: 75px;
+    }
+}

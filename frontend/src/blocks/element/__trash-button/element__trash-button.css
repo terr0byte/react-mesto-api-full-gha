@@ -1,0 +1,16 @@
+.element__trash-button {
+    position: absolute;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url(../../../images/trash.svg);
+    width: 18px;
+    height: 19px;
+    margin-left: 244px; /*Использую margin, тк с помощью него и position:absolute достигается нужный эффект с минимумом затрат*/
+    margin-top: 20px;
+}
+
+.element__trash-button:hover {
+    opacity: 0.6;
+}

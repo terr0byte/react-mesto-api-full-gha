@@ -1,0 +1,13 @@
+.element {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 282px;
+}
+
+@media screen and (max-width: 895px) {
+    .element {
+        margin: 0 auto;
+    }
+}
